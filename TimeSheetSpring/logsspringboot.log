@@ -1,0 +1,33 @@
+2021-01-07 08:19:23.971  INFO 22952 --- [main] t.e.T.TimeSheetSpringApplication         : Starting TimeSheetSpringApplication on CLYDO with PID 22952 (C:\Users\HP\Documents\workspace-sts-3.9.9.RELEASE\TimeSheetSpring\target\classes started by HP in C:\Users\HP\Documents\workspace-sts-3.9.9.RELEASE\TimeSheetSpring)
+2021-01-07 08:19:23.993  INFO 22952 --- [main] t.e.T.TimeSheetSpringApplication         : No active profile set, falling back to default profiles: default
+2021-01-07 08:19:28.359  INFO 22952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-07 08:19:28.912  INFO 22952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 527ms. Found 6 JPA repository interfaces.
+2021-01-07 08:19:30.018  INFO 22952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-07 08:19:31.857  INFO 22952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-07 08:19:31.918  INFO 22952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-07 08:19:31.919  INFO 22952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-01-07 08:19:33.247  INFO 22952 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-07 08:19:33.262  INFO 22952 --- [main] o.a.c.c.C.[.[.[/TimeSheetSpring]         : Initializing Spring embedded WebApplicationContext
+2021-01-07 08:19:33.262  INFO 22952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8945 ms
+2021-01-07 08:19:34.716  INFO 22952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-07 08:19:35.541  INFO 22952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-01-07 08:19:36.635  INFO 22952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-07 08:19:37.527  INFO 22952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-07 08:19:38.636  INFO 22952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-07 08:19:38.813  INFO 22952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-07 08:19:41.541  WARN 22952 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): tn.esprit.TimeSheetSpring.entity.TimeSheetId
+2021-01-07 08:19:41.543  WARN 22952 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): tn.esprit.TimeSheetSpring.entity.TimeSheetId
+2021-01-07 08:19:45.589  INFO 22952 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-07 08:19:45.605  INFO 22952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-07 08:19:46.812  WARN 22952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-07 08:19:47.113  INFO 22952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-07 08:19:47.778  INFO 22952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/TimeSheetSpring'
+2021-01-07 08:19:47.783  INFO 22952 --- [main] t.e.T.TimeSheetSpringApplication         : Started TimeSheetSpringApplication in 32.007 seconds (JVM running for 41.967)
+2021-01-07 08:20:24.458  INFO 22952 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/TimeSheetSpring]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-07 08:20:24.459  INFO 22952 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-07 08:20:24.474  INFO 22952 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-01-07 08:59:34.579  INFO 22952 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-07 08:59:34.589  INFO 22952 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-07 08:59:34.592  INFO 22952 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-07 08:59:34.603  INFO 22952 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-07 08:59:34.628  INFO 22952 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
